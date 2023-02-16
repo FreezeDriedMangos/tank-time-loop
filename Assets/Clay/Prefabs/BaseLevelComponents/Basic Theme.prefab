@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7271975002396408765
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7271975002396408755}
+  - component: {fileID: 7271975002396408764}
+  m_Layer: 0
+  m_Name: Basic Theme
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7271975002396408755
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7271975002396408765}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7271975002396408764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7271975002396408765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5a068e2e7a92326cafffc3308bd64ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  floor: {fileID: 4949622746536116662, guid: 0586a147fbf163a6e915878a81680229, type: 3}
+  walls:
+  - {fileID: 4625332993604867056, guid: 2e763576f10afca43885a06b8a2a886c, type: 3}
+  archs:
+  - {fileID: 3344384060336902616, guid: 8220d6ba8b4aa8098a173254caa3bd88, type: 3}
+  ramps:
+  - {fileID: 968912758002355333, guid: b7adc99cdca7054eeb5e78f5638593cc, type: 3}
+  breakableWalls:
+  - {fileID: 5115513649761010341, guid: 91882811c2bf1cc4ca41b8246b9a3135, type: 3}
+  halfWalls:
+  - {fileID: 4905581472122864900, guid: 7a20d6d126a102353bd2d4acb1d2cdce, type: 3}
+  transparentWalls:
+  - {fileID: 522498567226273989, guid: 133b83bd5716172458eb06f9c2156410, type: 3}
+  gimmickObjects: []
+  p1Spawns: []
+  p2Spawns: []
+  p3Spawns: []
+  p4Spawns: []
+  enemyPrefabs:
+  - {fileID: 492021169767481620, guid: 67a735153e8dadf3ba1275a4e654262f, type: 3}
+  - {fileID: 6323986629573006150, guid: acf08d5f03b2f4a338217a8fdeaec7b2, type: 3}
+  - {fileID: 2950897868426691055, guid: ca79d924a21dfc989abc776174f25237, type: 3}
+  - {fileID: 2950897868426691055, guid: f6445a58362d2306a9dcc67679a82612, type: 3}
+  - {fileID: 1351929901988570959, guid: 2f4cc52f08237934b891a5540288a42a, type: 3}
+  - {fileID: 5599426919567733406, guid: 102fa26a1654c1a4bb17398ff3e0b7bc, type: 3}
+  kingOfTheHillCapturePoint: {fileID: 3198282657669695492, guid: 325cb0f852efcb54caaab2cedbc626b6,
+    type: 3}

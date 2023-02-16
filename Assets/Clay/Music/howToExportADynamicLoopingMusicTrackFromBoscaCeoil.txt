@@ -1,0 +1,44 @@
+Exporting a multi-layered looping track from Bosca Ceoil
+
+1. Separate each layer so it plays alone
+    1a. Add a blank bar before and after each layer
+    1b. some instruments may require more than one blank bar, for example, the "church bell" instrument
+    1c. What's important is that your instrument's sound should be able to play all the way out to silence before the next layer starts
+2. Make a "Synchronization" pattern/bar
+    2a. I found "pretty bell" is a good instrument for this
+    2b. To make this pattern, just put a single high note somewhere in the middle of the bar
+3. in the blank space before each pattern, put a synchronization pattern on every row
+4. Make a marker pattern/bar
+    4a. Again using "pretty bell"
+    4b. This pattern should have a single high note at the VERY START of the bar
+5. After all of your layers, make a start/end marker layer
+    5a. make a column of synchronization patterns
+    5b. the next column should have marker patterns on every row
+    5c. leave n-1 columns of blank space, where n is the number of columns/bars in your layers
+        5ci. eg: if your layers are all 4 bars each, leave 3 bars/columns of space
+    5d. after the blank space, fill every row with a marker pattern
+6. Export each layer individually
+    6a. your export should start at (including) the synchronization pattern, and end a few blank columns after the layer ends (see 1b & 1c)
+7. Open a new Audacity project
+8. Import all layers into audacity
+9. Zoom waaaaay into the start of the synchronization bar on the first track/layer, until the blue line turns into a bunch of blue circles
+    9a. it should be very clear where the start of the synchronization bar is
+10. Move the second track/layer left or right until the first raised circle lines up with the first raised circle in the first track
+11. Repeat step 10 with each track/layer
+12. Zoom waaaaay into the start of the marker bar (in the marker track/layer)
+13. Click on the first raised circle, then click Edit>Clip Boundaries>Split
+    13a. tip: you can skip step 15 if, after clicking on the raised circle, you hold control and click on every other track/layer, and then Clip Boundaries
+14. Do this again for the end marker (again the first raised circle of the end marker)
+    14a. tip: you can skip step 15 if you do the same thing as 13a
+15. Make the same splits on all other tracks by lining up your cursor with the splits you made in step 13 and 14 (your black line should turn yellow)
+16. Select the middle portion of every track, and then hit CTRL+C
+17. Open a new audacity file
+18. CTRL+V
+19. Export each track individually (you can make this faster by clicking "solo" on the track you're about to export)
+20. DONE!!
+    20a. Note: In most cases you'll also have to export the third portion of some or all tracks, so don't toss them out
+    20b. Note: If you do need to, make sure that when you export thost third portions to add silence at the end until the third portions are the same length as the second portions
+
+
+
+    

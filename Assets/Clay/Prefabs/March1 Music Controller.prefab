@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &827587356848921774
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 827587356848921773}
+  - component: {fileID: 827587356848921771}
+  m_Layer: 0
+  m_Name: March1 Music Controller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &827587356848921773
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 827587356848921774}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.12, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &827587356848921771
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 827587356848921774}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e7ec191c0e2c3c57b2a6d123abadda7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fadeInOutSpeed: 1
+  intro: {fileID: 8300000, guid: 57fa9150a3864bb68b8be361dc733883, type: 3}
+  playIntro: 1
+  clips:
+  - {fileID: 8300000, guid: b2f4e235333c00d3e979134edac06be3, type: 3}
+  - {fileID: 8300000, guid: 74b40cf17da02e422b2e10c4b3c5c52c, type: 3}
+  - {fileID: 8300000, guid: 44dabdfdad0bb5be1bdca08af01e7988, type: 3}
+  - {fileID: 8300000, guid: 2eb246df5b3296efaa2dd058442fc66c, type: 3}
+  - {fileID: 8300000, guid: 05aeb8a1f36184daeb91b364fed3467e, type: 3}
+  - {fileID: 8300000, guid: 91238093f4f0e5a4ca543009dbc2c791, type: 3}
+  - {fileID: 8300000, guid: fe4d2fa7ff7fbc8809a09e3ccc406407, type: 3}
+  - {fileID: 8300000, guid: c1da7eb3f31350a4cb8398e93095378a, type: 3}
+  - {fileID: 8300000, guid: 783fffc98eb9c5b4995aa60cc39ba408, type: 3}
+  - {fileID: 8300000, guid: 9710a43e325466c4b9765b9d806a3ec0, type: 3}
+  clipTrails:
+  - {fileID: 0}
+  - {fileID: 8300000, guid: 4f3e978ef2e2a5d42ab89bd07671bc8e, type: 3}
+  - {fileID: 0}
+  - {fileID: 8300000, guid: 122e4bcb5b1da650789c1d66cd06077b, type: 3}
+  - {fileID: 0}
+  - {fileID: 8300000, guid: 66d0769754043a642ac79fdb3f6fb787, type: 3}
+  - {fileID: 8300000, guid: f583a77aabd8744fba61ca49a2765c3c, type: 3}
+  - {fileID: 0}
+  - {fileID: 8300000, guid: e62b8cc8240432ab3b309721642a8a4f, type: 3}
+  - {fileID: 8300000, guid: f752a3d3ac35bbd9599b30741a99806f, type: 3}
+  playClip: 01000000000100000100

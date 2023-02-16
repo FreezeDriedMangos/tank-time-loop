@@ -1,0 +1,807 @@
+{
+    "name": "PlayerInputs",
+    "maps": [
+        {
+            "name": "InGame",
+            "id": "41a72ace-5468-4378-ae37-d71787f1e3a7",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "367a743f-b33b-475d-bdb8-77ebd22cd8bd",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Fire Shell",
+                    "type": "Button",
+                    "id": "af4948cf-3937-4acd-b298-1dcc4c96cccd",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press"
+                },
+                {
+                    "name": "Fire Rocket",
+                    "type": "Button",
+                    "id": "1defd4c1-8895-4475-9941-4ca83a37c786",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Fire Bomb",
+                    "type": "Button",
+                    "id": "5ebd00d8-68a4-484f-815e-a52c1c41a4b0",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Aim",
+                    "type": "Value",
+                    "id": "7df5f43a-ae3e-4abd-a821-1ae2fc868d4d",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Pause",
+                    "type": "Button",
+                    "id": "2b9dda99-a510-48c3-9737-0776c812cbe8",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "AimLocation",
+                    "type": "Value",
+                    "id": "bde83155-d51f-4061-8b46-7da9fbc2e41a",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "AimRotation",
+                    "type": "Value",
+                    "id": "d83dff92-6efa-427f-9f88-c130207d7bb2",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "SetAimRotation",
+                    "type": "Value",
+                    "id": "3cf92911-108e-4c77-8671-d8b3beb66385",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "fd598b0c-e60d-4857-9386-2f4d71d9acc0",
+                    "path": "<Linux::NintendoCoLtd::88W836280211nWLAN>/Hat",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Joycon L",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "Keyboard",
+                    "id": "5d523c4a-b3ed-42c2-b1b5-35ebdafb09e1",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "c98857b8-8cb0-4abc-a220-f2eed25ddff1",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Mouse and Keyboard",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "60e6c91f-8185-4868-b718-28d46c074e39",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Mouse and Keyboard",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "811f6a5e-45e0-4b5a-8b3c-025f18e1af6a",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Mouse and Keyboard",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "2eee705c-6179-4d7b-b3ac-da818d3449cc",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Mouse and Keyboard",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "e62631c8-784f-464c-93e1-896374ac96de",
+                    "path": "<Linux::NintendoCoLtd::RSASecurIDRAuthenticator>/Hat",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Joycon R",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "73f96b9c-2966-42e4-a528-23fcf8350922",
+                    "path": "<DualShockGamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PS4_DualShock",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5115a7d4-adb0-4494-b312-7fd0de05bcf2",
+                    "path": "<XInputController>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "XboxController",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1c3f1af1-b815-4a84-aa37-b3e1868fdcb6",
+                    "path": "<HID::Nintendo Wireless Gamepad>/hat",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Joycon R (Windows)",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4f4cbe96-ed28-45a3-9631-485b39650711",
+                    "path": "<XInputController>/dpad",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "XboxController",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "527957e5-bd2d-45d0-9f26-8d39a9dd4b83",
+                    "path": "<Linux::NintendoCoLtd::88W836280211nWLAN>/TriggerRight",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Joycon L",
+                    "action": "Fire Shell",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f2c8c0c2-4fc6-4400-afb1-5f734e425b41",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Mouse and Keyboard",
+                    "action": "Fire Shell",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7f713f14-8441-4dd4-87cb-bac1ecd3ebbb",
+                    "path": "<Linux::NintendoCoLtd::RSASecurIDRAuthenticator>/TriggerRight",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Joycon R",
+                    "action": "Fire Shell",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ca290272-ac3b-45fa-a7ec-fd99a616a801",
+                    "path": "<DualShockGamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PS4_DualShock",
+                    "action": "Fire Shell",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e5e8cecb-2c63-41f7-b916-be1dc1b9d806",
+                    "path": "<XInputController>/buttonNorth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "XboxController",
+                    "action": "Fire Shell",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f830383a-9da4-4db7-8ccf-d328cfb6a78b",
+                    "path": "<HID::Nintendo Wireless Gamepad>/button2",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Joycon R (Windows)",
+                    "action": "Fire Shell",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "36fb8e8d-d84f-426d-85c9-4fc69a0ee3bf",
+                    "path": "<XInputController>/rightTrigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "XboxController",
+                    "action": "Fire Shell",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1486e577-97ae-43eb-9b22-5c53a13021af",
+                    "path": "<Linux::NintendoCoLtd::88W836280211nWLAN>/Z",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Joycon L",
+                    "action": "Fire Rocket",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "508ad1dc-93e2-448d-a889-edbcb51bc0f9",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Mouse and Keyboard",
+                    "action": "Fire Rocket",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1d51f767-1865-4a13-a7bc-5fc2abc202d4",
+                    "path": "<Linux::NintendoCoLtd::RSASecurIDRAuthenticator>/Z",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Joycon R",
+                    "action": "Fire Rocket",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "03202940-9986-493f-ac23-56364dfb9fd8",
+                    "path": "<DualShockGamepad>/buttonNorth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PS4_DualShock",
+                    "action": "Fire Rocket",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4df4f054-bb6b-4804-8968-98cf27b3b8bd",
+                    "path": "<XInputController>/buttonEast",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "XboxController",
+                    "action": "Fire Rocket",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9dae15f4-5d2f-493c-badb-e8d39fc0ba8e",
+                    "path": "<HID::Nintendo Wireless Gamepad>/trigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Joycon R (Windows)",
+                    "action": "Fire Rocket",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "42355958-d077-4129-b02e-d7b95e06d120",
+                    "path": "<Linux::NintendoCoLtd::88W836280211nWLAN>/Y",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Joycon L",
+                    "action": "Fire Bomb",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e2a74ab6-0d2b-4367-b39d-da7ec8b13f31",
+                    "path": "<Mouse>/middleButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Mouse and Keyboard",
+                    "action": "Fire Bomb",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "eaf6db12-30c1-4a42-8014-f534b294a3d9",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Joycon L",
+                    "action": "Fire Bomb",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c7550f21-0604-45ec-90e9-7f650c3fbab6",
+                    "path": "<Linux::NintendoCoLtd::RSASecurIDRAuthenticator>/Y",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Joycon R",
+                    "action": "Fire Bomb",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0bef854a-6800-452d-9b06-bb2757458a8b",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Mouse and Keyboard",
+                    "action": "Fire Bomb",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d349253e-4396-4b22-844d-6417d908b904",
+                    "path": "<DualShockGamepad>/buttonEast",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PS4_DualShock",
+                    "action": "Fire Bomb",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e7f52855-dd94-479d-b4d6-e1a089e45486",
+                    "path": "<XInputController>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "XboxController",
+                    "action": "Fire Bomb",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a918d075-77bc-4814-91be-6a967867c5e2",
+                    "path": "<HID::Nintendo Wireless Gamepad>/button3",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Joycon R (Windows)",
+                    "action": "Fire Bomb",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "fc050479-e666-47d0-b52b-d0edf2066044",
+                    "path": "<XInputController>/leftTrigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "XboxController",
+                    "action": "Fire Bomb",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "Button With One Modifier",
+                    "id": "7e7a1969-0cea-4c8f-b631-1a6afaa487b0",
+                    "path": "ButtonWithOneModifier",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Fire Bomb",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "modifier",
+                    "id": "b6ba2a0a-a550-4304-a1c8-734cc3e7cc8f",
+                    "path": "<Keyboard>/anyKey",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Mouse and Keyboard",
+                    "action": "Fire Bomb",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "button",
+                    "id": "5b085e5c-455d-46c3-836b-cdf058578640",
+                    "path": "<Keyboard>/enter",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Mouse and Keyboard",
+                    "action": "Fire Bomb",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "e3a7fc13-261f-424c-b243-9bf75878e1cd",
+                    "path": "<Mouse>/delta",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Mouse and Keyboard",
+                    "action": "Aim",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e1c1f21a-c348-4bd8-b894-9dc3b52416ae",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Mouse and Keyboard",
+                    "action": "Pause",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "80e03181-1198-4506-86e1-5f33b10452e0",
+                    "path": "<Linux::NintendoCoLtd::88W836280211nWLAN>/Mode",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Joycon L",
+                    "action": "Pause",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3a07d473-bf48-41b9-bec1-e96a820c7b49",
+                    "path": "<HID::Nintendo Wireless Gamepad>/button2",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Joycon L",
+                    "action": "Pause",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e1704800-17e2-4a56-ad2b-9bafc2092ec8",
+                    "path": "<Linux::NintendoCoLtd::RSASecurIDRAuthenticator>/ThumbLeft",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Joycon R",
+                    "action": "Pause",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c30fa2f2-a328-475e-854a-f939d0e77b12",
+                    "path": "<XInputController>/start",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "XboxController",
+                    "action": "Pause",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "51ce7bc7-a5c8-46c5-9886-9bf382272503",
+                    "path": "<XInputController>/select",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "XboxController",
+                    "action": "Pause",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d0470575-bfc6-4326-8438-ad8c2b5d8fa1",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "XboxController",
+                    "action": "Aim",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d388174b-940b-4720-8976-07c04d0a22d7",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Mouse and Keyboard",
+                    "action": "AimLocation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "fde7bef2-1068-44a8-b07d-e47a4b0ea6df",
+                    "path": "<XInputController>/rightStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "XboxController",
+                    "action": "SetAimRotation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ac3afd1c-0f68-4576-86f7-a3f46336c538",
+                    "path": "<DualShockGamepad>/rightStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "PS4_DualShock",
+                    "action": "SetAimRotation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "1D Axis",
+                    "id": "9f5a9d27-8262-4510-b0fb-506175d0abe7",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "XboxController",
+                    "action": "AimRotation",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "092e04ac-ff9d-41e4-8e27-e13a4c0badd2",
+                    "path": "<XInputController>/rightShoulder",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "XboxController",
+                    "action": "AimRotation",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "e09b2c72-124d-4fac-a781-945f4a576564",
+                    "path": "<XInputController>/leftShoulder",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "XboxController",
+                    "action": "AimRotation",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "1D Axis",
+                    "id": "ebba7c03-f541-4587-8bfc-ddd9159ac276",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "AimRotation",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "b0d7f882-bdc3-41cd-b909-6376b50903de",
+                    "path": "<HID::Nintendo Wireless Gamepad>/button6",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Joycon R (Windows)",
+                    "action": "AimRotation",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "8c2e1cef-c642-4612-9c7f-6ed14b351f76",
+                    "path": "<HID::Nintendo Wireless Gamepad>/button5",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Joycon R (Windows)",
+                    "action": "AimRotation",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "1D Axis",
+                    "id": "c9b8efed-d852-4e43-9d15-511ba7c838fd",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "AimRotation",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "a32893a7-3be4-4e0c-bfc7-8caf58b6b4a0",
+                    "path": "<Linux::NintendoCoLtd::88W836280211nWLAN>/TriggerRight2",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Joycon L",
+                    "action": "AimRotation",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "21e969ba-6b7a-4136-aab3-b63f10428a03",
+                    "path": "<Linux::NintendoCoLtd::88W836280211nWLAN>/TriggerLeft2",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Joycon L",
+                    "action": "AimRotation",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "1D Axis",
+                    "id": "390d0ac3-9f72-48a3-ae7c-373bc1fca529",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "AimRotation",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "88f625be-a1e1-423c-aa27-e4bee003c796",
+                    "path": "<Linux::NintendoCoLtd::RSASecurIDRAuthenticator>/TriggerRight2",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Joycon R",
+                    "action": "AimRotation",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "40bb7d75-4a26-4caf-ac38-00b49c156019",
+                    "path": "<Linux::NintendoCoLtd::RSASecurIDRAuthenticator>/TriggerLeft2",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Joycon R",
+                    "action": "AimRotation",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Mouse and Keyboard",
+            "bindingGroup": "Mouse and Keyboard",
+            "devices": [
+                {
+                    "devicePath": "<Mouse>",
+                    "isOptional": false,
+                    "isOR": false
+                },
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        },
+        {
+            "name": "Joycon L",
+            "bindingGroup": "Joycon L",
+            "devices": [
+                {
+                    "devicePath": "<Linux::NintendoCoLtd::88W836280211nWLAN>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        },
+        {
+            "name": "Joycon R",
+            "bindingGroup": "Joycon R",
+            "devices": [
+                {
+                    "devicePath": "<Linux::NintendoCoLtd::RSASecurIDRAuthenticator>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        },
+        {
+            "name": "PS4_DualShock",
+            "bindingGroup": "PS4_DualShock",
+            "devices": [
+                {
+                    "devicePath": "<DualShockGamepad>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        },
+        {
+            "name": "XboxController",
+            "bindingGroup": "XboxController",
+            "devices": [
+                {
+                    "devicePath": "<XInputController>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        },
+        {
+            "name": "Joycon R (Windows)",
+            "bindingGroup": "Joycon R (Windows)",
+            "devices": [
+                {
+                    "devicePath": "<HID::Nintendo Wireless Gamepad>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,124 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &604665295845710468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3198282657669695492}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db5490de77f087441979a3aeee9ecb87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  neutralMat: {fileID: 2100000, guid: 90ab93edee5a17a489a765a1d4dd88d4, type: 2}
+  p1Mat: {fileID: 2100000, guid: a0e2db2362f018349a349d1a5fa378ac, type: 2}
+  p2Mat: {fileID: 2100000, guid: 1a2b999d5407e994d96bc351ace5561d, type: 2}
+  p3Mat: {fileID: 2100000, guid: 038dc3138cd1aec4094016f537964858, type: 2}
+  p4Mat: {fileID: 2100000, guid: cee0c7c8d1ce4024bb66e6005dccef37, type: 2}
+--- !u!1001 &2352001538705913173
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 45f1a9c2826a1e311bbf555f4d25bee1,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.421406
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 45f1a9c2826a1e311bbf555f4d25bee1,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.000017086732
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 45f1a9c2826a1e311bbf555f4d25bee1,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.389021
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 45f1a9c2826a1e311bbf555f4d25bee1,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 45f1a9c2826a1e311bbf555f4d25bee1,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 45f1a9c2826a1e311bbf555f4d25bee1,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 45f1a9c2826a1e311bbf555f4d25bee1,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 45f1a9c2826a1e311bbf555f4d25bee1,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 45f1a9c2826a1e311bbf555f4d25bee1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 45f1a9c2826a1e311bbf555f4d25bee1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 45f1a9c2826a1e311bbf555f4d25bee1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 45f1a9c2826a1e311bbf555f4d25bee1,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 45f1a9c2826a1e311bbf555f4d25bee1,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 45f1a9c2826a1e311bbf555f4d25bee1,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 45f1a9c2826a1e311bbf555f4d25bee1,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 90ab93edee5a17a489a765a1d4dd88d4, type: 2}
+    - target: {fileID: 919132149155446097, guid: 45f1a9c2826a1e311bbf555f4d25bee1,
+        type: 3}
+      propertyPath: m_Name
+      value: King of the Hill Capture Point
+      objectReference: {fileID: 0}
+    - target: {fileID: 3451118302482216456, guid: 45f1a9c2826a1e311bbf555f4d25bee1,
+        type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3451118302482216456, guid: 45f1a9c2826a1e311bbf555f4d25bee1,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 45f1a9c2826a1e311bbf555f4d25bee1, type: 3}
+--- !u!1 &3198282657669695492 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 45f1a9c2826a1e311bbf555f4d25bee1,
+    type: 3}
+  m_PrefabInstance: {fileID: 2352001538705913173}
+  m_PrefabAsset: {fileID: 0}

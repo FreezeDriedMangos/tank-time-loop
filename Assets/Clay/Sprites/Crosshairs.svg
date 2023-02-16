@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="Crosshairs.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8"
+     inkscape:cx="48.231337"
+     inkscape:cy="70.357984"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:snap-midpoints="true"
+     inkscape:window-width="1366"
+     inkscape:window-height="731"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.00000003;stroke-linecap:round;stroke-miterlimit:6;stroke-dasharray:none;stroke-dashoffset:50.45669174;stroke-opacity:1;stroke-linejoin:round"
+       id="rect839"
+       width="3.4884105"
+       height="39.488411"
+       x="18.255802"
+       y="257.2558"
+       inkscape:export-xdpi="635"
+       inkscape:export-ydpi="635" />
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.00000003;stroke-linecap:round;stroke-miterlimit:6;stroke-dasharray:none;stroke-dashoffset:50.45669174;stroke-opacity:1;stroke-linejoin:round"
+       id="rect839-3"
+       width="3.4884105"
+       height="39.488411"
+       x="275.2558"
+       y="-39.744205"
+       transform="rotate(90)"
+       inkscape:export-xdpi="635"
+       inkscape:export-ydpi="635" />
+    <circle
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.00000003;stroke-linecap:round;stroke-miterlimit:6;stroke-dasharray:none;stroke-dashoffset:50.45669174;stroke-opacity:1;stroke-linejoin:round"
+       id="path858"
+       cx="20.000004"
+       cy="277"
+       r="4.1200471"
+       inkscape:export-xdpi="635"
+       inkscape:export-ydpi="635" />
+    <circle
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.00000003;stroke-linecap:round;stroke-miterlimit:6;stroke-dasharray:none;stroke-dashoffset:50.45669174;stroke-opacity:1;stroke-linejoin:round"
+       id="path860"
+       cx="12.350375"
+       cy="284.64963"
+       r="1.984375"
+       inkscape:export-xdpi="635"
+       inkscape:export-ydpi="635" />
+  </g>
+</svg>
